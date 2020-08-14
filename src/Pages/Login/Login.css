@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+.App {
+    text-align: center;
+    font-family: 'Manjari', sans-serif;
+    color: #F2F3F4
+  }
+  
+  .App-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #4D94FF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #F2F3F4;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .p-inputtext{
+    font-family: 'Manjari', sans-serif !important;
+    font-weight: 400!important;
+    border-radius: 20px!important;
+    border:none!important;
+    box-shadow: 0 1px 1px rgba(25,25,25,0.11), 
+              0 2px 2px rgba(25,25,25,0.11), 
+              0 4px 4px rgba(25,25,25,0.11), 
+              0 8px 16px rgba(25,25,25,0.11);
+  }
+  .input-label{
+    left: .7em!important;
+    top:55%!important;
+    color: #434343!important;
+  }
+  .p-float-label > input:focus ~ label{
+    color: #6cdefd!important;
+    top:-.75em!important;
+  }
+  .logbutton{
+    background-color: #61DAFB!important;
+    border:none!important;
+    color: #434343!important;
+    font-weight: 700!important;
+  }
+
+          
+                  
